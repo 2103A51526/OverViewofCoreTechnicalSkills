@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: productsans;
+    transition: all 200ms ease-in-out;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#indian_mountain_header_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/images/IndianMountainImage.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.mountain_container{
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.indian_heading{
+    font-size: 23vw;
+    position: relative;
+    top: 5vh;
+}
+.mountain_heading{
+    font-size: 15.8vw;
+    top: -10vh;
+    position: relative;
+}
+.mountain_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#left_mountain_container{
+    align-items: flex-end;
+    backdrop-filter: blur(0.5vw)
+}
+#right_mountain_container{
+    align-items: flex-start;
+}
+#moun_heading{
+    left: 5.45vw;
+    color: transparent;
+    letter-spacing: -0.25vw;
+    background-size: 195% 220%;
+    background-position: -7.4vw -19.5vw;
+}
+#ntain_heading{
+    right: 5.3vw;
+    letter-spacing: 0.3vw;
+}
+#ind_heading{
+    background-size: 180% 150%;
+    background-position: -1.5vw -3vw;
+}
+.left_container_heading{
+    background-image: url(../../assets/images/IndianMountainImage.png);
+    background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+}
+#indian_mountain_navigation_bar{
+    width: 50vw;
+    position: absolute;
+    top: 1vw;
+    right: 0vw;
+}
+#navigation_bar_list{
+    font-size: 3vw;
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.navigation_bar_list_items:hover{
+    color: white;
+    text-shadow: 0px 0px 10px black,0px 0px 20px black,0px 0px 30px black;
+    transform: scale(1.1);
+}
+#arrow_buttons_container{
+    width: 10vw;
+    position: absolute;
+    right: 5vw;
+    bottom: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow_buttons{
+    font-size: 3vw;
+    padding: 0.3vw;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 30px black;
+    cursor: pointer;
+}
+.arrow_buttons:hover{
+    color: white;
+    background-color: black;
+    transform: rotateZ(360deg) scale(1.1);
+}
+#left_arrow_button:hover{
+    transform: rotateZ(-360deg)scale(1.1);
+}

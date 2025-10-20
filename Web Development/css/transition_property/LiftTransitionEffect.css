@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#lift_image_container{
+    width: 100%;
+    height: 700px;
+    /* background-color: greenyellow; */
+}
+.lift_image_containers{
+    width: 20%;
+    height: 100%;
+    /* margin: 0% 0.5%; */
+    background-image: url(../../assets/images/Lift.jpg);
+    background-size: 50%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    float: left;
+    border-bottom: 30px solid red;
+    transition: background-position 5000ms;
+}
+.lift_image_containers:hover{
+    border-bottom: 30px solid green;
+    background-position: top;
+}
+#first_lift{
+    transition-timing-function: ease;
+}
+#second_lift{
+    transition-timing-function: ease-in;
+}
+#third_lift{
+    transition-timing-function: ease-in-out;
+}
+#fourth_lift{
+    transition-timing-function: ease-out;
+}
+#fifth_lift{
+    transition-timing-function: linear;
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#earth_moon_container{
+    height: 350px;
+    width: 350px;
+    margin: 150px auto;
+    border-radius: 30%;
+    background-image: url(../../assets/images/Earth.png),url(../../assets/images/Space.png);
+    background-size: 80%,100%;
+    background-position: center;
+    background-repeat: no-repeat,repeat;
+    cursor: pointer;
+}
+#earth_moon_container:hover{
+    background-image: url(../../assets/images/Moon.png),url(../../assets/images/Space.png);
+    background-size: 81%,100%;
+    transition: all 1s;
+}

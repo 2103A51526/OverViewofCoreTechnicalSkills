@@ -1,0 +1,88 @@
+/*universal selector()*/
+*{
+    font-size: 50px;
+}
+/* element selector(tagname)*/
+/*div{
+    width: 100px;height: 100px;background-color: red;
+}
+h1{
+    color: darkblue
+}
+input{
+    color: red;outline: none;border: 3px solid red;
+}
+button{
+    outline: none;border: none;border-radius: 30px;color: white;background-color: black;
+}*/
+/* id selector(#) */
+#grand_parent_container{
+    width: 200px;height: 200px;background-color: red;
+}
+#parent_container{
+    width: 50%;height: 50%;background-color: yellow;
+}
+#grand_child_container{
+    width: 50%;height: 50%;background-color: blue;
+}
+#core_java_heading{
+    color: red;
+}
+#core_python_heding{
+    color: blue;
+}
+#web_development_heading{
+    background-color: black;color: orange;width: fit-content;
+}
+input{
+    outline: none;
+}
+#username_inputbox{
+    border: 3px solid red;
+}
+#password_inputbox{
+    border: 3px solid blue;
+}
+button{
+    outline: none;border: none;
+}
+#subscribe_button{
+    color: white;background-color: red;border-radius: 30px;
+}
+#follow_button{
+    color: white;background-color: royalblue;border-radius: 10px;
+}
+/* class selector(.)*/
+.text_darkblue{
+    color: darkblue;
+}
+.bc_lightblue{
+    background-color: lightblue;
+}
+.Increase_fontsize{
+    font-size: 65px;
+}
+.bolded_content{
+    background-color: black;
+    color: white;
+}
+
+
+#Blood_Group_Details_table_caption{
+    color: white;
+    background-color: purple;
+    font-size: 45px;
+}
+
+#Blood_Group_Details_table_Head_First_Row {
+    background-color: black;
+    color: orange;
+}
+
+.bg_lightgrey {
+    background-color: lightgray;
+}
+
+.bg_lavenderblush {
+    background-color: lavenderblush;
+}

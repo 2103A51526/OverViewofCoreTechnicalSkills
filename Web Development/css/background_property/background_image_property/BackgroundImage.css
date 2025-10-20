@@ -1,0 +1,25 @@
+.color_image_block{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+}
+#indian_flag_patterned_block{
+    background-image: linear-gradient(to bottom right,orange,white,green);
+}
+#rainbow_patterned_block{
+    background-image: radial-gradient(circle at bottom left,violet,indigo,blue,green,yellow,orange,red);
+}
+#color_wheel_patterned_block{
+    background-image: conic-gradient(red,orange,yellow,green,aqua,darkblue,magenta,red);
+    border-radius: 50%;
+}
+
+#space_container{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    background-image: url(../../../assets/images/Earth.png), url(../../../assets/images/Space.png);
+    background-size: 50%,100% 100%;
+    background-repeat: no-repeat;
+    background-position: 15px 15px,center;
+}

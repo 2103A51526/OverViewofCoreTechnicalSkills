@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansBold.ttf);
+}
+#google_doodle_container{
+    width: 492px;
+    height: 180px;
+    position: absolute;
+    top: 250px;
+    left: 522px;
+    /* background-color: lightgray; */
+    letter-spacing: -3.75px;
+}
+.letters_container{
+    font-size: 150px;
+    text-align: center;
+    font-family: productsans;
+    width: fit-content;
+    height: 100%;
+    float: left;
+}
+.royalblue_color{
+    color: royalblue;
+}
+.red_color{
+    color: red;
+}
+.yellow_color{
+    color: orange;
+}
+.green_color{
+    color: green;
+}
+#first_container{
+    animation: toAnimateFirstContainer 2000ms ease-in-out infinite alternate none;
+}
+#second_container{
+    animation: toAnimateSecondContainer 600ms linear infinite alternate none;
+}
+#third_container{
+    animation: toAnimateThirdContainer 2000ms ease-in-out infinite alternate none;
+}
+#fourth_container{
+    animation: toAnimateFourthContainer 500ms linear infinite alternate none;
+}
+#fifth_container{
+    animation: toAnimateFifthContainer 750ms ease-out infinite alternate none;
+}
+#sixth_container{
+    animation: toAnimateSixthContainer 500ms linear infinite alternate-reverse none;
+}
+
+/* animation logics */
+@keyframes toAnimateFirstContainer {
+    from{
+        transform: rotateY(360deg);
+    }
+    50%{
+        transform: rotateY(-360deg);
+    }
+    75%{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+
+}
+@keyframes toAnimateSecondContainer{
+    from{
+        transform: translateY(0px) ;
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(100px) scale(1.5) rotateX(360deg);
+    }
+}
+@keyframes toAnimateThirdContainer{
+    from{
+        transform: skew(360deg,360deg);
+    }
+    25%{
+        transform: skew(-360deg,-360deg);
+    }
+    50%{
+        transform: skew(360deg,360deg);
+    }
+    75%{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(50px);
+    }
+}
+@keyframes toAnimateFourthContainer{
+    from{
+        transform: scale(1.35);
+    }
+    to{
+        transform: scale(0.85);
+    }
+}
+@keyframes toAnimateFifthContainer{
+    from{
+        transform: translateY(150px) rotate(-360deg) ;
+    }
+    to{
+        transform: translateY(-180px) rotate(360deg) scale(1.75);
+    }
+}
+@keyframes toAnimateSixthContainer{
+    from{
+        transform: scale(1.35) rotate(-30deg);
+    }
+    to{
+        transform: scale(0.85) rotate(-30deg);
+    }
+}

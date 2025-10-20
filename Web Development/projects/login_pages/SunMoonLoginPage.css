@@ -1,0 +1,92 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ProductSans;
+    transition: all 1000ms ease-in-out;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../assets/fonts/Product\ Sans\ Regular.ttf);
+}
+#sun_moon_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/images/leftlargemountainnight.png),url(../assets/images/moon.png),url(../assets/images/leftsmallmountainnight.png),url(../assets/images/smallsun.png),url(../assets/images/rightsmallmountainnight.png),url(../assets/images/rightlargemountainnight.png),url(../assets/images/space.png);
+    background-size: 50%,18%,55%,20%,60%,50%,100%;
+    background-repeat: no-repeat;
+    background-position: 0% 101%,0% 0%,40% 105%,50% 110%,60% 105%,100% 101%;
+}
+#login_container{
+    width: 35vw;
+    height: 36vh;
+    border: 3px solid white;
+    border-radius: 5vw;
+    position: absolute;
+    top: 15vw;
+    left: 32.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    backdrop-filter: blur;
+}
+#login_heading{ 
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+}
+.inputboxes{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    padding-left: 1vw;
+    font-size: 2vw;
+    width: 28.5vw;
+}
+ #login_button{ 
+    font-size: 2.25vw;
+    font-weight: bold;
+    padding: 1% 2%;
+    border: none;
+    outline: none;
+    border-radius: 1vw;
+}
+.inputboxes::placeholder{
+    color: white;
+    text-shadow: 5px 5px 20px black;
+}
+#login_container:hover+#sun_moon_container{
+    background-image: url(../../assets/images/leftlargemountainday.png),url(../../assets/images/moon.png),url(../../assets/images/leftsmallmountainday.png),url(../../assets/images/smallsun.png),url(../../assets/images/rightsmallmountainday.png),url(../../assets/images/rightlargemountainday.png),url(../../assets/images/sky.png);
+    background-size: 50%,10%,55%,15%,60%,50%,100%;
+    background-repeat: no-repeat;
+    background-position: -20% 101%,10% 100%,10% 105%,80% 0%,100% 105%,120% 101%;
+}
+#Username_inputbox:hover{
+    transform: scale(1.1);
+}
+#Password_inputbox:hover{
+    transform: scale(1.1);
+}
+#login_container:hover>#login_heading{
+    color: black;
+    text-shadow: 0px 0px 10px white,0px 0px 20px white,0px 0px 30px white,0px 0px 40px white,0px 0px 50px white,0px 0px 60px white,0px 0px 70px white,0px 0px 80px white;
+}
+#login_button:hover{
+    animation:  toAnimateLoginButton 1000ms linear 750ms infinite alternate both;
+}
+@keyframes toAnimateLoginButton {
+    from
+    {
+        transform: skew(0deg);
+    }
+    50%{
+        transform: skew(50deg);
+    }
+    to 
+    {
+        transform: skew(-50deg);
+    }
+} */

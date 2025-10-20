@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <form action="" style="text-align: center;">
+        <fieldset style="width: fit-content;border: 3px solid black;"> 
+            <legend style="background-color: black;color: orange;font-size: 45px;"><b>RegistrationForm</b></legend>
+            <input style="font-size: 25px;outline: none;" placeholder="Username" type="text" required><sup style="font-size: 25px;color: red;">*</sup>
+            <br>
+            <input style="font-size: 25px;outline: none;" placeholder="Password" type="password" required><sup style="font-size: 25px;color: red;">*</sup>
+            <br>
+            <input style="font-size: 25px;outline: none;" placeholder="AADHAAR Card Num" type="number" value="229933224455" readonly id="">
+            <br>
+            <input style="font-size: 25px;outline: none;" placeholder="PAN Card Num" type="text" value="ABC123D5D6" readonly id="">
+            <br>
+            <input style="width: 15px; height: 20px;outline: none;text-align: center;" type="text" value="" minlength="1" maxlength="1">
+            <input style="width: 15px; height: 20px;outline: none;text-align: center;" type="text" value="" minlength="1" maxlength="1">
+            <input style="width: 15px; height: 20px;outline: none;text-align: center;" type="text" value="" minlength="1" maxlength="1">
+            <input style="width: 15px; height: 20px;outline: none;text-align: center;" type="text" value="" minlength="1" maxlength="1">
+            <input style="width: 15px; height: 20px;outline: none;text-align: center;" type="text" value="" minlength="1" maxlength="1">
+            <input style="width: 15px; height: 20px;outline: none;text-align: center;" type="text" value="" minlength="1" maxlength="1">
+            <input style="background-color: lightgray; border: none;outline: none;border-radius: 30px;font-size: 25px;" type="button" value="ValidateOTP" disabled>
+            <br>
+            <input style="font-size: 25px;outline: none;width: 310px;" placeholder="Age" type="number" min="18" max="50">
+            <br>
+            <input style="font-size: 25px;outline: none;" type="date">
+            <br>
+            <input style="font-size: 25px;outline: none;" type="time">
+            <br>
+            <select style="font-size: 25px;outline: none;" name="" id="" >
+                <option value="">--SelectCity--</option>
+                <optgroup label="Telangana">
+                    <option value="">Hyderabad</option>
+                    <option value="">HiTech-City</option>
+                </optgroup>
+                <optgroup label="AndhraPradesh">
+                    <option value="">Ongole</option>
+                    <option value="">Vishakapatnam</option>
+                </optgroup>
+                <optgroup label="Bangalore">
+                    <option value="">Kurnool</option>
+                    <option value="">Bider</option>
+                </optgroup>
+            </select>
+            <br>
+            <input style="font-size: 25px;outline: none;" placeholder="Course" list="course_list">
+            <br>
+            <datalist id="course_list">
+                <option value="Java"></option>
+                <option value="Python"></option>
+                <option value="DataStructure"></option>
+                <option value="WebDevelopment"></option>
+                <option value="OracleSQL"></option>
+                <option value="MongoDB"></option>
+            </datalist>
+            <br>
+            <br>
+            <textarea placeholder="Address" name="" id="" style="font-size: 25px; background-color: lightgray;border: none;outline: none;border-radius: 20px;width: 360px;height: 100px;resize: none;"></textarea>
+            <br>
+            <input style="font-size: 30px;background-color: black;color: orange;outline: none;border: none;border-radius: 30px;cursor: pointer;" type="submit" value="Register" name="" id="">
+        </fieldset>
+    </form>
+</body>
+</html>

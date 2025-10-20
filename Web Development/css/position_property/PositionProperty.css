@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.parent_blocks{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+#red_block{
+    background-color: red;
+    /* static positioning is also called default positioning of element. */
+    position: static;
+    /* position: relative; */
+    /* offset properties */
+    top: 20px;
+    left: 20px;
+}
+#darkblue_block{
+    background-color: darkblue;
+    position: static;
+    position: relative;
+    /* relative positioning will make the element to be positioned from its static position. */
+    /* position: absolute; */
+    /* offset properties */
+    top: 20px;
+    left: 20px;
+}
+#yellow_block{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    border-radius: 25%;
+    position: relative;
+    /* absolute positioning will make the elemnt to be positioned from its parent position. */
+    position: absolute;
+    /* offset properties */
+    /* top: 25%; */
+    bottom: 5%;
+    left: 25%;
+}

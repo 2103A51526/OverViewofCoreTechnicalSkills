@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* h-585-350=235 */
+    /* w=1280-800=480 */
+}
+body{
+    background-color: black;
+}
+#siren_parent{
+    width: 800px;
+    height: 350px;
+    position: relative;
+    top: 117.5px;
+    left: 240px;
+}
+.siren{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 100px;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+#red_siren{
+    animation-name: toAnimateRedSiren;
+}
+#blue_siren{
+    animation-name: toAnimateBlueSiren;
+}
+@keyframes toAnimateRedSiren{
+    0%{
+        background-color: red;
+        box-shadow: 0px 0px 100px red,0px 0px 200px red,0px 0px 300px red;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+@keyframes toAnimateBlueSiren{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: blue;
+        box-shadow: 0px 0px 100px blue,0px 0px 200px blue,0px 0px 300px blue;
+    }
+}

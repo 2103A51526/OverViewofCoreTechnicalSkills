@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: productsans;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#header_container{
+    height: 679px;
+    background-image: linear-gradient(lightpink,lightblue);
+}
+#heading_container{
+    font-size: 150px;
+    color: darkblue;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+#explore_button{
+    font-size: 50px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    position: absolute;
+    left: 44%;
+    bottom: 25%;
+    background-color: rgb(250, 250, 250);
+    cursor: pointer;
+}
+#explore_button:hover{
+    box-shadow: inset 0px 0px 15px gray;
+}
+.navigation_bar{
+    height: 50px;
+    font-size: 35px;
+    background-color: lightgray;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.image_container{
+    height: 729px;
+}
+#mount_himalayas_image_container{
+    background-image: url(../../assets/images/MountHimalayas.jpg);
+    background-size: 100% 100%;
+}
+#mount_fuji_image_container{
+    background-image: url(../../assets/images/MountFuji.jpg);
+    background-size: 100% 100%;
+}
+#ocean_himalayas_image_container{
+    background-image: url(../../assets/images/Ocean.jpg);
+    background-size: 100% 100%;
+}
+#forest_himalayas_image_container{
+    background-image: url(../../assets/images/Forest.jpg);
+    background-size: 100% 100%;
+}
+#up_arrow_button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: lightgrey;
+    box-shadow: inset 0px 0px 20px gray;
+    padding: 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+#up_arrow{
+    font-size: 75px;
+    color: darkblue;
+}
+/* --------------------------------- */
+.image_headings{
+    width: 350px;
+    font-size: 80px;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 1px 10px;
+    color: transparent;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    cursor: pointer;
+    transition: all 1000ms;
+}
+.image_container:hover .image_headings{
+    color: lightgray;
+}
+#mount_himalayas_heading:hover{
+    color: green;
+    box-shadow: 0px 0px 25px green;
+}
+#mount_fuji_heading:hover{
+    color: rgb(213, 248, 242);
+    box-shadow: 0px 0px 25px rgb(213, 248, 242);
+}
+#ocean_heading:hover{
+    color: rgb(57, 180, 229);
+    box-shadow: 0px 0px 25px rgb(57, 180, 229);
+}
+#forest_heading:hover{
+    color: rgb(0, 128, 0);
+    box-shadow: 0px 0px 25px rgb(0, 128, 0);
+}
+.image_description{
+    width: 350px;
+    font-size: 20px;
+    color: transparent;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    top: 16%;
+    left: 5%;
+    transition: all 1000ms ;
+}
+.image_headings:hover~#mount_himalayas_description{
+    color: green;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 20px green;
+}
+.image_headings:hover~#mount_fuji_description{
+    color: rgb(213, 248, 242);
+    background-color: rgb(163, 163, 163);
+    box-shadow: 0px 0px 25px rgb(213, 248, 242);
+}
+.image_headings:hover~#ocean_description{
+    color: rgb(57, 180, 229);
+    background-color: lightgrey;
+    box-shadow: 0px 0px 25px rgb(57, 180, 229);
+}
+.image_headings:hover~#forest_description{
+    color: rgb(0, 128, 0);
+    background-color: lightgrey;
+    box-shadow: 0px 0px 25px rgb(0, 128, 0);
+}

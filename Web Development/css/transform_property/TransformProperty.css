@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#color_blocks_contairner{
+    width: 600px;
+    height: 200px;
+    margin: 205px auto;
+    padding-bottom: 20px;
+    border-bottom: 20px solid black;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+.color_blocks{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+#red_color_block{
+    background-color: red;
+}
+#darkblue_color_block{
+    background-color: darkblue;
+}
+#gray_color_block{
+    background-color: gray;
+}
+#color_blocks_contairner:hover>.color_blocks{
+    transition: all 5000ms ease-in-out;
+}
+/* rotate function */
+/* #color_blocks_contairner:hover>#red_color_block{
+    transform: rotateX(360deg);
+}
+#color_blocks_contairner:hover>#darkblue_color_block{
+    transform: rotateY(360deg);
+}
+#color_blocks_contairner:hover>#gray_color_block{
+    transform: rotateZ(360deg);
+    transform: rotate(360deg);
+} */
+/* skew function */
+/* #color_blocks_contairner:hover>#red_color_block{
+    transform: skewX(360deg);
+}
+#color_blocks_contairner:hover>#darkblue_color_block{
+    transform: skewY(360deg);
+}
+#color_blocks_contairner:hover>#gray_color_block{
+    transform: skew(360deg,360deg);
+} */
+/* scale function */
+/* #color_blocks_contairner:hover>#red_color_block{
+    transform: scaleX(1.5);
+}
+#color_blocks_contairner:hover>#darkblue_color_block{
+    transform: scaleY(1.5);
+}
+#color_blocks_contairner:hover>#gray_color_block{
+transform: scale(1.5,2.5);  
+} */
+/* translate function */
+#color_blocks_contairner:hover>#red_color_block{
+    transform: translateX(-100px);
+}
+#color_blocks_contairner:hover>#darkblue_color_block{
+    transform: translateY(-100px);
+}
+#color_blocks_contairner:hover>#gray_color_block{
+    transform: translate(100px);
+}

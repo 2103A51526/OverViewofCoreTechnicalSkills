@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: productsans;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#web_development_list_container{
+    width: 30%;
+    height: 679px;
+    background-color: lightgray;
+    /* overflow: visible; */ 
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* overflow: auto; */
+}
+#web_development_heading{
+    font-size: 55px;
+    padding-top: 15px;
+    margin-left: 7px;
+}
+#web_development_list{
+    font-size: 30px;
+    margin-left: 15px;
+    list-style-type: none;
+}
+#html_list,#css_list,#java_script_list,#react_js_list{
+    font-size: 25px;
+    margin-left: 80px;
+    list-style-type: upper-roman;
+}
+.html_list_items:hover,.css_list_items:hover,.java_script_list_items:hover,.react_js_list_items:hover{
+    background-color: rgb(175, 175, 175);
+}
+#web_development_list_container:hover{
+    overflow: auto;
+}
+#web_development_list_container::-webkit-scrollbar{
+    width: 20px;
+    background-color: purple;
+    border-radius: 15px;
+}
+#web_development_list_container::-webkit-scrollbar-thumb{
+    background-color: white;
+    border: 1.5px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#web_development_list_container::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(200, 200, 200);
+}
+#web_development_list_container::-webkit-scrollbar-button{
+    height: 20px;
+    background-color: #000;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#web_development_list_container::-webkit-scrollbar-button:active{
+    background-color: orange;
+}

@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#shoe_container{
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+    background-image: radial-gradient(circle at top,black,white,red);
+    position: relative;
+    top: 150px;
+    left: 575px;
+    cursor: pointer;
+}
+#ShoeImage{
+    width: 90%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    transition: transform 1000ms;
+}
+#shoe_container:hover>#ShoeImage{
+    transform: translate(-80%,-80%) scale(2) rotate(-90deg);
+}
+.text_tools{
+    font-size: 40px;
+    width: 75%;
+    color: transparent;
+    position: relative;
+    top: 25%;
+    left: 26.5%;
+    transition: color 1000ms 500ms;
+    font-family: productsans;
+}
+#brand_heading{
+    font-size: 40px;
+    width: fit-content;
+}
+#shoe_descrpition{
+    font-size: 20px;
+}
+#shoe_container:hover .text_tools{
+    color: black;
+}
+#shoe_descrpition{
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+}
+#shoe_container:hover #shoe_descrpition{
+    box-shadow: 0px 0px 8px #000;
+    color: black;
+    transition: all 1000ms 500ms;
+}

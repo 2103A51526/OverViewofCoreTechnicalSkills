@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#pixel_unit{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#centimeter_unit{
+    width: 10cm;
+    height: 1cm;
+    background-color: orange;
+}
+/* 1mm=10cm */
+#millimeter_unit{
+    width: 100mm;
+    height: 10mm;
+    background-color: purple;
+}
+#points{
+    width: 10pt;
+    height: 10pt;
+    background-color: blue;
+}
+/* 1inch=1.25cm */
+#inches_unit{
+    width: 1in;
+    height: 1in;
+    background-color: brown;
+}

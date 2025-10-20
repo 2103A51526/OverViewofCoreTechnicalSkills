@@ -1,0 +1,36 @@
+*{
+    font-family: productsans;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#WorldPopulationGraph_heading{
+    font-size: 100px;
+    text-align: center;
+}
+#world{
+    color: black;
+}
+#population{
+    color: darkblue;
+}
+#graph{
+    color: red;
+}
+#side_heading{
+    font-size: 50px;
+}
+.heading{
+    color: darkblue;
+    width: 100px;
+}
+#india_border{
+    border-right: 1000px solid red;
+}
+#china_border{
+    border-right: 800px solid orange;
+}
+#usa_border{
+    border-right: 300px solid green;
+}

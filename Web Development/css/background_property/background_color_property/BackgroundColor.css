@@ -1,0 +1,28 @@
+#black_color_block,#red_color_block{
+        width: 100px;
+    height: 100px;
+}
+
+#red_color_block{
+    /* color name */
+    background-color: red;
+    /* rgb color value (0-255) */
+    background-color: rgb(0, 0, 100);
+    /* rgb color value (0-255) with alpha (0-1) */
+    background-color: rgba(0, 0, 100, 0.2);
+    /* hexa decimal color value (#00-ff) */
+    background-color: #000060;
+    /* hexa decimal color value (#00-ff) with alpha value (00-ff)*/
+    background-color: #0000601f;
+    /* hsl color value (hue(0deg-360deg) saturation(0%-100%) lightness(0%-100%) 50%is neutral */
+    background-color: hsl(0deg, 100%, 95%);
+    /* hsl color value (hue(0deg-360deg) saturation(0%-100%) lightness(0%-100%) 50%is neutral with alpha value (0-1)*/
+    background-color: hsla(0deg, 100%, 50%, 0.1);
+}
+
+#black_color_block{
+    /* six digit hexa decimal value */
+    background-color: #000000;
+    /* three digit hexadecimal color value */
+    background-color: #000;
+}

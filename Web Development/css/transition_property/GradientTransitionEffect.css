@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+#instagram_heading{
+    font-size: 150px;
+    width: fit-content;
+    margin: 200px auto;
+    background-image: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+    background-size: 2000%;
+    background-position: left;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+#instagram_heading:hover{
+    background-position: right;
+    transition: background-position 2500ms linear 2500ms;
+}

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansBold.ttf);
+}
+*{
+    font-family: productsans;
+    border-collapse: collapse;
+}
+#table_body{
+    font-size: 180px;
+    text-align: center;
+}
+
+.table_row_cells{
+    border: 5px solid darkblue;
+}
+#first_w_cell{
+    border-bottom: none;
+}
+#second_w_cell{
+    border-right: none;
+}
+#third_w_cell{
+    border-left: none;
+}
+#fourth_w_cell{
+    border-top: none;
+}
+.empty_cell,#o_cell{
+    border: none;
+}

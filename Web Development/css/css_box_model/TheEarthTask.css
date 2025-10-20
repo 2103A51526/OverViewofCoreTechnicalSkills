@@ -1,0 +1,60 @@
+@font-face {
+    font-family: productsans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: productsans;
+}
+
+#earth_task_fieldset{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 240px;
+    background-image: url(../../assets/images/Earth.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#earth_task_legend{
+    color: darkblue;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#the_earth_heading{
+    width: fit-content;
+    margin-top: 30px;
+    font-size: 30px;
+    color: transparent;
+}
+#the_earth_paragraph{
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: solid;
+    color: transparent;
+}
+#earth_task_fieldset:hover {
+    border: 20px groove gray;
+    cursor: pointer;
+    background-size: 155px;
+    background-position: left;
+    background-position: 3%;
+    box-sizing: content-box;
+    /* height: 270px; */
+}
+#earth_task_fieldset:hover>#earth_task_legend{
+    margin-left: 55%;
+    border: 3px solid black;
+}
+#earth_task_fieldset:hover>#the_earth_heading{
+    background-color: lightgray;
+}
+#earth_task_fieldset:hover>.earth_contents{
+    color: darkblue;
+    margin-left: 55%;
+    margin-right: 2%;
+}

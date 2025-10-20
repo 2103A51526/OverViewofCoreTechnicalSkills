@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#instagram_icon_container{
+    width: 650px;
+    height: 650px;
+    border-radius: 25%;
+    background-image: linear-gradient(to bottom right,darkblue,magenta,red,orange);
+    position: relative;
+    top: 40px;
+    left: 30%;
+}
+#white_bordered_icon_container{
+    width: 70%;
+    height: 70%;
+    border: 40px solid white;
+    border-radius: 30%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+#circular_white_bordered_icon_container{
+    width: 60%;
+    height: 60%;
+    border: 40px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#circular_filled_container{
+    width: 12%;
+    height: 12%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+}

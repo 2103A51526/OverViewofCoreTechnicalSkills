@@ -1,0 +1,72 @@
+#parent_container{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    cursor: pointer;
+}
+#child_container{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+}
+#parent_container:hover>#child_container{
+    background-color: white;
+}
+
+#grand_parent_element{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    cursor: pointer;
+}
+#parent_element,#grand_child_element,#child_element{
+    height: 50%;
+    width: 50%;
+    cursor: pointer;
+}
+#parent_element,#grand_child_element{
+    background-color: greenyellow;
+}
+#child_element{
+    background-color: gray;
+}
+/* decendant selector( ) */
+#grand_parent_element:hover #child_element{
+    background-color: black;
+}
+#parent_element:hover #grand_child_element{
+    background-color: white;
+}
+
+.color_blocks{
+    height: 100px;
+    width: 100px;
+    float: left;
+    cursor: pointer;
+}
+#red_color_block{
+    background-color: red;
+}
+#darkblue_color_block{
+    background-color: darkblue;
+}
+#orange_color_block{
+    background-color: orange;
+}
+#white_color_block{
+    background-color: white;
+}
+#lightgreen_color_block{
+    background-color: lightgreen;
+}
+/* adjacent sibling selector */
+#red_color_block:hover+#darkblue_color_block{
+    background-color: black;
+}
+#orange_color_block:hover+#white_color_block{
+    border: 1px solid black;
+}
+/* general sibling selector */
+#orange_color_block:hover~#lightgreen_color_block{
+    background-color: darkgreen;
+}

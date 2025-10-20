@@ -1,0 +1,95 @@
+/* 
+pseudo class selector
+syntax: 
+selector:pseudo-classes{
+    property : value;
+}
+*/
+*{
+    font-family: productsans;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../../assets/fonts/ProductSansRegular.ttf);
+}
+.hyperlinks{
+    font-size: 40px;
+}
+.flower_hyperlink:link{
+    color: orange;
+}
+.flower_hyperlink:visited{
+    color: red;
+}
+.heavenly_bodies_hyperlink:link{
+    color: purple;
+}
+.heavenly_bodies_hyperlink:visited{
+    color: gray;
+}
+.flower_hyperlink:active{
+    color: greenyellow;
+}
+.heavenly_bodies_hyperlink:active{
+    color: black;
+}
+.flower_hyperlink:hover{
+    color: white;
+    background-color: purple;
+}
+.heavenly_bodies_hyperlink:hover{
+    color: greenyellow;
+    background-color: gray;
+}
+#color_block_container{
+    width: fit-content;
+    height: 100px;
+    margin: 50px auto;
+    padding: 1%;
+    border-bottom: 10px solid gray;
+    cursor: pointer;
+    /* background-color: red; */
+}
+.color_blocks{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    float: left;
+    border-radius: 50%;
+}
+#color_block_container:hover>.color_blocks:first-child,#color_block_container:hover>.color_blocks:nth-last-child(1){
+    background-color: purple;
+}
+#color_block_container:hover>.color_blocks:nth-child(3),#color_block_container:hover>.color_blocks:nth-last-child(3){
+    background-color: greenyellow;
+}
+.input_boxes{
+    font-size: 30px;
+    outline: none;
+    border: none;
+}
+.required_inputboxes:required{
+    border-bottom: 5px solid red;
+}
+.readonly_inputboxes:read-only{
+    border-bottom: 5px solid black;
+}
+.input_buttons{
+    font-size: 30px;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: green;
+}
+.disabled_inputbuttons:disabled{
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+}
+.disabled_inputbuttons:focus{
+    border-bottom: none;
+}
+.input_boxes:focus,.input_buttons:focus{
+    border-bottom: 5px solid darkblue;
+}

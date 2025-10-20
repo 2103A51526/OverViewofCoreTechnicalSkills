@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+.display_buttons{
+    font-size: 50px;
+    background-color: purple;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.display_images{
+    width: 200px;
+    margin-top: 10px;
+    display: none;
+    /* visibility: hidden; (takes space-- just hidden but element space present)*/ 
+}
+#earth_display_button:hover~#display_earth_image{
+    display: block;
+    /* visibility: visible; */
+}
+#moon_display_button:hover~#display_moon_image{
+    display: block;
+    /* visibility: visible; */
+}
