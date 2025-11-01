@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+#color_block{
+    box-shadow: 0px 0px 10px gray, 0px 0px 20px gray;
+}
+/* color block responsiveness */
+/* mobile first approch */
+@media only screen and (min-width:320px){
+    #color_block{
+        width: 30vw;
+        height: 30vw;
+        background-color: red;
+        border-radius: 30%;
+    }
+}
+/* mobile small screen responsiveness */
+@media only screen and (max-width:320px){
+    #color_block{
+        width: 35vw;
+        height: 35vw;
+        background-color: greenyellow;
+        border-radius: 30% 70%/70% 30%;
+    }
+}
+/* mobile medium screen responsiveness */
+@media only screen and (min-width:375px){
+    #color_block{
+        width: 40vw;
+        height: 40vw;
+        background-image: radial-gradient(lightgreen,lightpink);
+        border-radius: 30% 70% 30% 70%/70% 30% 70% 30%;
+    }
+}
+/* mobile large screen responsiveness */
+@media only screen and (min-width:425px){
+    #color_block{
+        width: 45vw;
+        height: 45vw;
+        background-image: radial-gradient(circle at top,black,orange);
+        border-radius: 10% 50%/50% 10%;
+    }
+}
+/* tablet screen responsiveness */
+@media only screen and (min-width:768px){
+    #color_block{
+        width: 50vw;
+        height: 50vh;
+        background-image: radial-gradient(circle at bottom,violet,indigo,blue,yellow,orange,red);
+        border-radius: 50%;
+    }
+}
+/* laptop small screen responsiveness */
+@media only screen and (min-width:1024px){
+    #color_block{
+        width: 55vw;
+        height: 55vh;
+        background-image: linear-gradient(black,white,black,white,black,white,black,white,black,white,black,white);
+        border-radius: 0%;
+    }
+}
+/* laptop large screen responsiveness */
+@media only screen and (min-width:1440px){
+    #color_block{
+        width: 60vw;
+        height: 60vh;
+        background-image: linear-gradient(to top left,black,white,black,white,black,white,black,white,black,white,black,white);
+        border-radius: 0%;
+    }
+}
+/* laptop 4k screen responsiveness */
+@media only screen and (min-width:2560px){
+    #color_block{
+        width: 65vw;
+        height: 65vh;
+        background-image: linear-gradient(to top right,black,white,black,white,black,white,black,white,black,white,black,white);
+        border-radius: 0%;
+    }
+}
